@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar'
-import Intro from './Intro'
-import Solutions from './Solutions'
+import Navbar from './Navbar/Navbar'
+import Intro from './Intro/Intro'
+import Solutions from './Solutions/Solutions'
 
 class App extends React.Component {
     render() {
