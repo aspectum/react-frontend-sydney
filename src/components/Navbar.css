@@ -1,0 +1,19 @@
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+img {
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    padding: 0px 14px;
+}
