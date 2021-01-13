@@ -1,4 +1,4 @@
-.container {
+.navbar.container {
     max-width: 1200px;
     width: 100%;
     margin-left: auto;
@@ -6,16 +6,17 @@
     align-items: center;
 }
 
-.sticky {
+.navbar.wrapper {
     top: 0;
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 80px;
     padding-top: 20px;
+    background-color: rgba(210,233,255,0.9);
     transition: all 0.3s ease-out;
 }
 
-.scrolled {
+.navbar.scrolled {
     padding-top: 5px;
 }
 

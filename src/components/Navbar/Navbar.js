@@ -31,8 +31,8 @@ class Navbar extends React.Component {
 
     render() {
         return (
-            <div className={`sticky ${this.state.nav_scrolled && 'scrolled'}`}>
-                <div className='container flex'>
+            <div className={`navbar wrapper ${this.state.nav_scrolled && 'scrolled'}`}>
+                <div className='navbar container flex'>
                     <img src={logo} alt='logo' />
                     <nav>
                         <ul className='flex'>
