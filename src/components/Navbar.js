@@ -3,7 +3,7 @@ import './Navbar.css'
 
 function Navbar() {
     return (
-        <div className='container flex'>
+        <div className='container flex fixed'>
             <img src={logo} alt='logo' />
             <nav>
                 <ul className='flex'>
