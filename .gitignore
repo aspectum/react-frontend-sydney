@@ -25,6 +25,8 @@ sketch
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+.eslintcache
+
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,react
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
