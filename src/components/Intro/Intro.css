@@ -2,3 +2,7 @@ p {
     margin-left: 150px;
     margin-right: 150px;
 }
+
+.intro.container {
+    padding-top: 80px;
+}
