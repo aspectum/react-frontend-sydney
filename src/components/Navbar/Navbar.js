@@ -1,8 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+// Disabling linting for href=#
 import React from 'react';
 import logo from './logo.png'
 import './Navbar.css'
-
-// usar section-wrapper?
 
 class Navbar extends React.Component {
 
@@ -13,8 +13,7 @@ class Navbar extends React.Component {
         }
     }
 
-
-    handleScroll = () => {
+    handleScroll = () => { // Animating navbar movement once scrolled a bit
         if (window.scrollY > 60) {
             if (!this.state.nav_scrolled) {
                 this.setState({ nav_scrolled: true })
@@ -38,13 +37,13 @@ class Navbar extends React.Component {
                     <img src={logo} alt='logo' />
                     <nav>
                         <ul className='flex'>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Features</li>
-                            <li>Pricing</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
-                            <li><button>Start Free Trial</button></li>
+                            <li><a href='#'>Home</a></li>
+                            <li><a href='#'>About</a></li>
+                            <li><a href='#'>Features</a></li>
+                            <li><a href='#'>Pricing</a></li>
+                            <li><a href='#'>Blog</a></li>
+                            <li><a href='#'>Contact</a></li>
+                            <li><a className='button' href='#'>Start Free Trial</a></li>
                         </ul>
                     </nav>
                 </div>
