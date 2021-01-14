@@ -3,6 +3,7 @@
     position: fixed;
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 20px;
     background-color: rgba(210,233,255,0.9);
     transition: all 0.3s ease-in-out;
     color: #111111;
@@ -21,6 +22,7 @@
 
 .scrolled {
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .navbar .button {
