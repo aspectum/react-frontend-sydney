@@ -12,7 +12,7 @@ function Solutions() {
     return (
         <div className='section-wrapper'>
             <div className='container tc'>
-                <h1>Our Solution For You</h1>
+                <h2>Our Solution For You</h2>
                 <p>Consectetur adipiscing elit ut elit tellus, luctus nec ullamcorper mattis.</p>
                 <div className='row'>
                     <div className='col'>
@@ -21,7 +21,7 @@ function Solutions() {
                                 <img src={paintbrush} alt='' width='32' height='32'></img>
                             </div>
                             <div className='description'>
-                                <p>Professional tools</p>
+                                <h3>Professional tools</h3>
                                 <p>Ipsum pendisse ultrices gravida accumsan lacus.</p>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ function Solutions() {
                                 <img src={shield} alt='' width='32' height='32'></img>
                             </div>
                             <div className='description'>
-                                <p>App integration</p>
+                                <h3>App integration</h3>
                                 <p>Ipsum pendisse ultrices gravida accumsan lacus.</p>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ function Solutions() {
                                 <img src={cog} alt='' width='32' height='32'></img>
                             </div>
                             <div className='description'>
-                                <p>Fully customizable</p>
+                                <h3>Fully customizable</h3>
                                 <p>Ipsum pendisse ultrices gravida accumsan lacus.</p>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ function Solutions() {
                                 <img src={hand} alt='' width='32' height='32'></img>
                             </div>
                             <div className='description'>
-                                <p>Easy to use</p>
+                                <h3>Easy to use</h3>
                                 <p>Ipsum pendisse ultrices gravida accumsan lacus.</p>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ function Solutions() {
                                 <img src={cloud} alt='' width='32' height='32'></img>
                             </div>
                             <div className='description'>
-                                <p>Saved to the cloud</p>
+                                <h3>Saved to the cloud</h3>
                                 <p>Ipsum pendisse ultrices gravida accumsan lacus.</p>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ function Solutions() {
                                 <img src={megaphone} alt='' width='32' height='32'></img>
                             </div>
                             <div className='description'>
-                                <p>Maketing</p>
+                                <h3>Maketing</h3>
                                 <p>Ipsum pendisse ultrices gravida accumsan lacus.</p>
                             </div>
                         </div>

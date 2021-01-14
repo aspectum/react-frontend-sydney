@@ -3,7 +3,7 @@ function Footer() {
         <div className='section-wrapper'>
             <div className='flex'>
                 <div>
-                    <h2>SYDNEY LOGO</h2>
+                    <h2>LOGO</h2>
                     <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. gravida lacus vel facilisis.</p>
                     <div className='flex'>
                         <div>FB</div>

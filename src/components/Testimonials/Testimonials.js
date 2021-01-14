@@ -51,7 +51,7 @@ function Testimonials() {
                                     <img src={portrait_2} alt='' width='60px' height='60px'></img>
                                 </div>
                                 <div>
-                                    <h5>Amanda Lee</h5>
+                                    <h3>Amanda Lee</h3>
                                     <p>Ceo & Founder Crix</p>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ function Testimonials() {
                                     <img src={portrait_1} alt='' width='60px' height='60px'></img>
                                 </div>
                                 <div>
-                                    <h5>Adam Cheise</h5>
+                                    <h3>Adam Cheise</h3>
                                     <p>Head Of Sales, Intel</p>
                                 </div>
                             </div>

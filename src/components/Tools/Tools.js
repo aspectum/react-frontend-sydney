@@ -18,7 +18,7 @@ function Tools() {
                             <img src={analyze} alt='' width='36' height='36'></img>
                         </div>
                         <div className='description'>
-                            <p>Analyze Your Data</p>
+                            <h3>Analyze Your Data</h3>
                             <p>Click edit button to change this text lorem ipsum dolor sit amet tellus.</p>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ function Tools() {
                             <img src={cloud} alt='' width='36' height='36'></img>
                         </div>
                         <div className='description'>
-                            <p>Embedded Analytics</p>
+                            <h3>Embedded Analytics</h3>
                             <p>Click edit button to change this text lorem ipsum dolor sit amet tellus.</p>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function Tools() {
                             <img src={hand} alt='' width='36' height='36'></img>
                         </div>
                         <div className='description'>
-                            <p>Easy and Intuitive</p>
+                            <h3>Easy and Intuitive</h3>
                             <p>Click edit button to change this text lorem ipsum dolor sit amet tellus.</p>
                         </div>
                     </div>
