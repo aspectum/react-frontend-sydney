@@ -1,0 +1,29 @@
+.icon > img {
+    max-width: none;
+}
+
+.description > p {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 33.333%;
+}
+
+.item {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    background-color: steelblue;
+    border-radius: 50%;
+    margin: auto;
+    padding: 20px;
+}

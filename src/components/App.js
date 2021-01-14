@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar'
 import Intro from './Intro/Intro'
 import Solutions from './Solutions/Solutions'
 import Snippets from './Snippets/Snippets'
+import Tools from './Tools/Tools'
 import './App.css'
 
 class App extends React.Component {
@@ -14,6 +15,7 @@ class App extends React.Component {
                 <Intro />
                 <Solutions />
                 <Snippets />
+                <Tools />
             </div>
         )
     }
