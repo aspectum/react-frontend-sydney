@@ -19,18 +19,19 @@ a:hover {
     color: inherit;
 }
 
+.tc {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
 .section-wrapper {
     max-width: 1200px;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
-
-.section-col {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
 #light-blue-bg {
     position: absolute;

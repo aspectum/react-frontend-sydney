@@ -6,25 +6,27 @@ import image from './analyzetools.png'
 function AnalyzeTools() {
     return (
         <div className='section-wrapper'>
-            <div>
-                <img src={image} alt=''></img>
-            </div>
-            <div>
-                <h2>Analyze Your Data With Our Analyze Tools</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <div className='flex'>
                 <div>
-                    <Collapsible trigger='Organize your data'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                    </Collapsible>
-                    <Collapsible trigger='Always in sync'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                    </Collapsible>
-                    <Collapsible trigger='Work with any team'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                    </Collapsible>
-                    <Collapsible trigger='Business analytics'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                    </Collapsible>
+                    <img src={image} alt=''></img>
+                </div>
+                <div>
+                    <h2>Analyze Your Data With Our Analyze Tools</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <div>
+                        <Collapsible trigger='Organize your data'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </Collapsible>
+                        <Collapsible trigger='Always in sync'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </Collapsible>
+                        <Collapsible trigger='Work with any team'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </Collapsible>
+                        <Collapsible trigger='Business analytics'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </Collapsible>
+                    </div>
                 </div>
             </div>
         </div>

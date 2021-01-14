@@ -12,7 +12,7 @@ function Solutions() {
     return (
         <div className='section-wrapper'>
             <div className='container tc'>
-                <h1 className='f1'>Our Solution For You</h1>
+                <h1>Our Solution For You</h1>
                 <p>Consectetur adipiscing elit ut elit tellus, luctus nec ullamcorper mattis.</p>
                 <div className='row'>
                     <div className='col'>
@@ -21,7 +21,7 @@ function Solutions() {
                                 <img src={paintbrush} alt='' width='32' height='32'></img>
                             </div>
                             <div className='description'>
-                                <p className='f4'>Professional tools</p>
+                                <p>Professional tools</p>
                                 <p>Ipsum pendisse ultrices gravida accumsan lacus.</p>
                             </div>
                         </div>
