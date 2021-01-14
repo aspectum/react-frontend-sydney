@@ -1,4 +1,5 @@
 import React from 'react';
+import WavyBackground from './WavyBackground/WavyBackground'
 import Navbar from './Navbar/Navbar'
 import Intro from './Intro/Intro'
 import Solutions from './Solutions/Solutions'
@@ -15,7 +16,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <div id='light-blue-bg'></div>
+                <WavyBackground />
                 <Navbar />
                 <Intro />
                 <Solutions />
