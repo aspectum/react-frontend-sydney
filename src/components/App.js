@@ -4,6 +4,7 @@ import Intro from './Intro/Intro'
 import Solutions from './Solutions/Solutions'
 import Snippets from './Snippets/Snippets'
 import Tools from './Tools/Tools'
+import Pricing from './Pricing/Pricing'
 import './App.css'
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
                 <Solutions />
                 <Snippets />
                 <Tools />
+                <Pricing />
             </div>
         )
     }
