@@ -7,3 +7,10 @@
     background-color: #d2e9ff;
     z-index: -1;
 }
+
+.section-wrapper {
+    max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

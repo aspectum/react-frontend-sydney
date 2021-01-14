@@ -5,7 +5,7 @@ import image from './analyzetools.png'
 
 function AnalyzeTools() {
     return (
-        <div className='flex'>
+        <div className='section-wrapper'>
             <div>
                 <img src={image} alt=''></img>
             </div>
