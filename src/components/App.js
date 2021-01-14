@@ -7,6 +7,7 @@ import Tools from './Tools/Tools'
 import Pricing from './Pricing/Pricing'
 import AnalyzeTools from './AnalyzeTools/AnalyzeTools'
 import DownloadApp from './DownloadApp/DownloadApp'
+import Testimonials from './Testimonials/Testimonials'
 import './App.css'
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
                 <Pricing />
                 <AnalyzeTools />
                 <DownloadApp />
+                <Testimonials />
             </div>
         )
     }
