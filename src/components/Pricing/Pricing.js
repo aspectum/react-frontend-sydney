@@ -1,7 +1,9 @@
+import './Pricing.css'
+
 function Pricing() {
     return (
         <div className='section-wrapper'>
-            <div className='tc'>
+            <div className='tc price-table'>
                 <h2>Get In Reasonable Pricing Plan</h2>
                 <p>Consectetur adipiscing elit ut elit tellus, luctus nec ullamcorper mattis.</p>
                 <div className='row'>
