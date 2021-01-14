@@ -6,6 +6,19 @@ body {
     color: #444444;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+  
+a:hover {
+    color: inherit;
+}
+
 .section-wrapper {
     max-width: 1200px;
     display: flex;
