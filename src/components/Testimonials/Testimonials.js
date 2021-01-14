@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import SwiperCore, { Navigation, Pagination, A11y } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import './Testimonials.css';
 import logo_1 from './company_logo_1.png'
