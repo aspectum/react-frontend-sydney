@@ -1,0 +1,39 @@
+.downloadapp-wrapper {
+	background-color: #FFF7F1;
+	background-image: url("./bg_downloadapp.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.downloadapp.container {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.downloadapp .stores {
+    display: flex;
+    justify-content: center;
+}
+
+.downloadapp .button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadapp .btn2 {
+    background-color: #FFFFFF;
+    color: #7575da;
+}
+
+.downloadapp .store_icon {
+    font-size: 50px;
+    margin-right: 30px;
+}
+
+.downloadapp .button p {
+    margin: 0;
+    line-height: 1.5rem;
+}
