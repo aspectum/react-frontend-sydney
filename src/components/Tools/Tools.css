@@ -27,3 +27,8 @@
     margin: auto;
     padding: 20px;
 }
+
+.tools svg {
+    width: 36px;
+    height: 36px;
+}
