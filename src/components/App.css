@@ -29,14 +29,6 @@ h3 {
 	font-weight: 700;
 }
 
-a:visited {
-    color: inherit;
-}
-  
-a:hover {
-    color: inherit;
-}
-
 .tc {
     text-align: center;
 }
@@ -70,7 +62,7 @@ a:hover {
     background-color: #393689;
 }
 
-a.button {
+.button {
     display: inline-block;  
     background-color: #7575DA;
     color: #ffffff;
@@ -82,7 +74,7 @@ a.button {
     transition: all 0.3s ease-in-out;
 }
 
-a.button:hover {
+.button:hover {
     background-color: #393689;
     color: #ffffff;
 }
