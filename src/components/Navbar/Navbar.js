@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 // Disabling linting for href=#
 import React from 'react';
-import logo from './logo.png' // the image changes color slightly, but I don't know why
+import logo from '../logo.png' // the image changes color slightly, but I don't know why
 import './Navbar.css'
 
 class Navbar extends React.Component {
