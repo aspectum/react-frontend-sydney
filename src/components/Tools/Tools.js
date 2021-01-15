@@ -1,6 +1,3 @@
-import analyze from './analyze.svg'
-import cloud from './cloud_arrows.svg'
-import hand from './hand_dots.svg'
 import './Tools.css'
 
 function Tools() {
