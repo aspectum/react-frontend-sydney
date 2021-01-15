@@ -6,12 +6,45 @@
 	background-size: cover;
 }
 
-.tools .row {
+.tools {
     display: flex;
 }
 
-.tools .col {
-    width: 33.333%;
+.tools .desc_section {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+}
+
+.tools .desc_section_inner {
+    margin-right: 50px;
+}
+
+.tools .cards {
+    width: 50%;
+}
+
+.card {
+    display: flex;
+	padding: 35px 50px 35px 50px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #EBEBEB;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.card1 {
+    margin: -70px 90px 0px 0px;
+}
+
+.card2 {
+    margin: 40px 0px 0px 90px;
+}
+
+.card3 {
+    margin: 40px 90px -70px 0px;
 }
 
 .tools .item {

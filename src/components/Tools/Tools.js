@@ -4,14 +4,16 @@ function Tools() {
     return (
         <div className="tools-wrapper">
             <div className='section-wrapper'>
-                <div className='tools flex'>
-                    <div>
-                        <h2>Work Faster With Powerful Tools.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                        <button>Start Free Trial</button>
+                <div className='tools'>
+                    <div className='desc_section'>
+                        <div className='desc_section_inner'>
+                            <h2>Work Faster With Powerful Tools.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            <a href='#' className='button'>Start Free Trial</a>
+                        </div>
                     </div>
-                    <div>
-                        <div className='item'>
+                    <div className='cards'>
+                        <div className='card card1'>
                             <div className='icon icon2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path d="M23.707 22.293l-2.54-2.54A4.969 4.969 0 0022 17c0-2.757-2.243-5-5-5s-5 2.243-5 5 2.243 5 5 5a4.969 4.969 0 002.753-.833l2.54 2.54a.999.999 0 101.414-1.414zM17 20c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3zM19 0H3a3 3 0 100 6h16a3 3 0 100-6zM3 4a1 1 0 110-2 1 1 0 010 2zm4 0a1 1 0 110-2 1 1 0 010 2z"/>
@@ -23,7 +25,7 @@ function Tools() {
                                 <p>Click edit button to change this text lorem ipsum dolor sit amet tellus.</p>
                             </div>
                         </div>
-                        <div className='item'>
+                        <div className='card card2'>
                             <div className='icon'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path d="M8 11a1 1 0 00-1 1v5.5c0 .551-.448 1-1 1h-.5v-.75a.75.75 0 00-1.244-.564l-2 1.75a.751.751 0 000 1.128l2 1.75A.75.75 0 005.5 21.25v-.75H6c1.654 0 3-1.346 3-3V12a1 1 0 00-1-1zM21.744 18.936l-2-1.75c-.484-.421-1.244-.08-1.244.564v.75H18c-.552 0-1-.449-1-1V12a1 1 0 10-2 0v5.5c0 1.654 1.346 3 3 3h.5v.75a.75.75 0 001.244.564l2-1.75a.751.751 0 000-1.128zM13.75 20.5H13V10a1 1 0 10-2 0v10.5h-.75a.75.75 0 00-.565 1.244l1.75 2a.752.752 0 001.129 0l1.75-2a.75.75 0 00-.564-1.244z"/>
@@ -35,7 +37,7 @@ function Tools() {
                                 <p>Click edit button to change this text lorem ipsum dolor sit amet tellus.</p>
                             </div>
                         </div>
-                        <div className='item'>
+                        <div className='card card3'>
                             <div className='icon icon2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path d="M271.064 51.312V0h-29.96v51.361a86.002 86.002 0 0115.118-1.359 85.84 85.84 0 0114.842 1.31zM171.581 121.053h-52.82c.991 4.847 1.513 9.864 1.513 15s-.521 10.153-1.513 15h52.82c-.86-4.875-1.335-9.882-1.335-15s.475-10.125 1.335-15zM340.864 121.053c.86 4.875 1.335 9.882 1.335 15s-.474 10.125-1.335 15h52.376c-.991-4.847-1.513-9.864-1.513-15s.521-10.153 1.513-15z"/>
