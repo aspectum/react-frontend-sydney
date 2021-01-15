@@ -1,10 +1,9 @@
-.tools .icon > img {
-    max-width: none;
-}
-
-.tools .description > p {
-    margin: 0;
-    margin-bottom: 1em;
+.tools-wrapper {
+	background-color: #F6F8FD;
+	background-image: url("./bg_tools.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .tools .row {
