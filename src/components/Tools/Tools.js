@@ -6,7 +6,7 @@ import './Tools.css'
 function Tools() {
     return (
         <div className='section-wrapper'>
-            <div className='flex'>
+            <div className='tools flex'>
                 <div>
                     <h2>Work Faster With Powerful Tools.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>

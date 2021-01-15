@@ -1,25 +1,25 @@
-.icon > img {
+.tools .icon > img {
     max-width: none;
 }
 
-.description > p {
+.tools .description > p {
     margin: 0;
     margin-bottom: 1em;
 }
 
-.row {
+.tools .row {
     display: flex;
 }
 
-.col {
+.tools .col {
     width: 33.333%;
 }
 
-.item {
+.tools .item {
     display: flex;
 }
 
-.icon {
+.tools .icon {
     display: flex;
     align-items: center;
     background-color: steelblue;
