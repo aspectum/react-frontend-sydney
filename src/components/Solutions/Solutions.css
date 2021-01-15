@@ -7,23 +7,46 @@
     margin-bottom: 1em;
 }
 
-.row {
+
+
+
+
+
+
+
+
+.solutions .row {
     display: flex;
 }
 
-.col {
+.solutions .col {
     width: 33.333%;
 }
 
-.item {
+.solutions .item {
     display: flex;
 }
 
-.icon {
-    display: flex;
-    align-items: center;
+.solutions .icon {
     background-color: steelblue;
     border-radius: 50%;
-    margin: auto;
-    padding: 20px;
+    padding: 25px;
+    margin-right: 15px;
+    fill: #393689;
+    background-color: #FFF2E7;
+    transition: all 0.3s ease-in-out;
+}
+
+.solutions .icon2 {
+    background-color: #E4F3FF;;
+}
+
+.solutions .icon:hover {
+    fill: #ffffff;
+    background-color: #393689;
+}
+
+.solutions svg {
+    width: 32px;
+    height: 32px;
 }
