@@ -29,8 +29,6 @@ function Testimonials() {
                             slidesPerView={6}
                             navigation
                             pagination={{ clickable: true }}
-                            onSwiper={(swiper) => console.log(swiper)}
-                            onSlideChange={() => console.log('slide change')}
                             >
                             <SwiperSlide><img src={logo_1} alt='' width='195px'></img></SwiperSlide>
                             <SwiperSlide><img src={logo_2} alt='' width='195px'></img></SwiperSlide>
