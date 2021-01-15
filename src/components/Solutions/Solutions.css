@@ -15,8 +15,10 @@
 }
 
 .solutions .icon {
+    display: flex;
     border-radius: 50%;
     padding: 25px;
+    margin: auto;
     margin-right: 20px;
     fill: #393689;
     background-color: #FFF2E7;
