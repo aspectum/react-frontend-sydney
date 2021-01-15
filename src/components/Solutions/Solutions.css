@@ -1,19 +1,6 @@
-.icon > img {
-    max-width: none;
+.solutions.container {
+    line-height: 2rem;
 }
-
-.description > p {
-    margin: 0;
-    margin-bottom: 1em;
-}
-
-
-
-
-
-
-
-
 
 .solutions .row {
     display: flex;
@@ -31,7 +18,7 @@
     background-color: steelblue;
     border-radius: 50%;
     padding: 25px;
-    margin-right: 15px;
+    margin-right: 20px;
     fill: #393689;
     background-color: #FFF2E7;
     transition: all 0.3s ease-in-out;

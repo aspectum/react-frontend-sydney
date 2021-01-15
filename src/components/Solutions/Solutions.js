@@ -6,9 +6,11 @@ import './Solutions.css'
 function Solutions() {
     return (
         <div className='section-wrapper'>
-            <div className='solutions container tc'>
-                <h2>Our Solution For You</h2>
-                <p>Consectetur adipiscing elit ut elit tellus, luctus nec ullamcorper mattis.</p>
+            <div className='solutions container'>
+                <div className='tc'>
+                    <h2>Our Solution For You</h2>
+                    <p>Consectetur adipiscing elit ut elit tellus, luctus nec ullamcorper mattis.</p>
+                </div>
                 <div className='row'>
                     <div className='col'>
                         <div className='item'>
