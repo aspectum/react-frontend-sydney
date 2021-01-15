@@ -25,8 +25,9 @@
     padding-bottom: 5px;
 }
 
-.navbar .button {
+.navbar a.button {
     background-color: #ffffff;
+    color: inherit;
     font-weight: 500;
     padding: 4px 13px;
     border: 0;
@@ -34,7 +35,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.navbar .button:hover {
+.navbar a.button:hover {
     background-color: #7575DA;
     color: #ffffff;
 }
