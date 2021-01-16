@@ -10,6 +10,7 @@ import AnalyzeTools from './AnalyzeTools/AnalyzeTools'
 import DownloadApp from './DownloadApp/DownloadApp'
 import Testimonials from './Testimonials/Testimonials'
 import Footer from './Footer/Footer'
+import GoTop from './GoTop/GoTop';
 import './App.css'
 
 class App extends React.Component {
@@ -27,6 +28,7 @@ class App extends React.Component {
                 <DownloadApp />
                 <Testimonials />
                 <Footer />
+                <GoTop />
             </div>
         )
     }
