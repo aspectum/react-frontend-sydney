@@ -39,7 +39,7 @@ h3 {
 
 .section-wrapper {
     max-width: 1200px;
-    margin: 70px auto;
+    margin: 0 auto 70px;
 }
 
 .icon {
