@@ -11,6 +11,7 @@ import DownloadApp from './DownloadApp/DownloadApp'
 import Testimonials from './Testimonials/Testimonials'
 import Footer from './Footer/Footer'
 import GoTop from './GoTop/GoTop';
+import Spacer from './Spacer/Spacer';
 import './App.css'
 
 class App extends React.Component {
@@ -22,7 +23,9 @@ class App extends React.Component {
                 <Intro />
                 <Solutions />
                 <Snippets />
+                <Spacer />
                 <Tools />
+                <Spacer />
                 <Pricing />
                 <AnalyzeTools />
                 <DownloadApp />
