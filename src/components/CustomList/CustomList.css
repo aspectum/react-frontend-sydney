@@ -1,0 +1,24 @@
+ul.custom-list {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list .icon-check {
+    color: #7575DA;
+}    
+
+.custom-list li:hover .icon-check {
+    color: #393689;
+}    
+
+.custom-list li {
+    padding: 10px 0;
+}    
+
+.custom-list li:hover {
+    color: #393689;
+}    
+
+.custom-list span {
+    padding-left: 15px;
+}
