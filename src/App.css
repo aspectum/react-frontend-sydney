@@ -41,3 +41,12 @@ h3 {
     max-width: 1200px;
     margin: 0 auto 70px;
 }
+
+.card {
+	padding: 35px 50px 35px 50px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #EBEBEB;
+	border-radius: 20px 20px 20px 20px;
+}

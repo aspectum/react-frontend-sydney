@@ -19,13 +19,13 @@ function Tools() {
                         </div>
                     </div>
                     <div className='cards'>
-                        <div className='card card1'>
+                        <div className='card card-pos-1'>
                             <ItemBox className='icon-alt' icon={Analyze} title='Analyze Your Data' desc='Click edit button to change this text lorem ipsum dolor sit amet tellus.' />
                         </div>
-                        <div className='card card2'>
+                        <div className='card card-pos-2'>
                             <ItemBox icon={CloudArrows} title='Embedded Analytics' desc='Click edit button to change this text lorem ipsum dolor sit amet tellus.' />
                         </div>
-                        <div className='card card3'>
+                        <div className='card card-pos-3'>
                             <ItemBox className='icon-alt' icon={HandDots} title='Easy and Intuitive' desc='Click edit button to change this text lorem ipsum dolor sit amet tellus.' />
                         </div>
                     </div>
