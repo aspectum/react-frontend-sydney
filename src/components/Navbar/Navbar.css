@@ -26,17 +26,15 @@
     padding-bottom: 5px;
 }
 
-.navbar a.button {
-    background-color: #ffffff;
-    color: inherit;
-    font-weight: 500;
-    padding: 4px 13px;
-    border: 0;
+.button#navbar-btn {
+    margin: 0;
+    padding: 5px 10px;
     border-radius: 3px;
-    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+    box-shadow: none;
 }
 
-.navbar a.button:hover {
+.button#navbar-btn:hover {
     background-color: #7575DA;
     color: #ffffff;
 }

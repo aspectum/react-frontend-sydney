@@ -1,0 +1,8 @@
+.solutions .row {
+    display: flex;
+    line-height: 2rem;
+}
+
+.solutions .col {
+    width: 33.333%;
+}

@@ -1,0 +1,17 @@
+.downloadapp-wrapper {
+	background-color: #FFF7F1;
+	background-image: url("./bg_downloadapp.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.downloadapp.container {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.downloadapp .stores {
+    display: flex;
+    justify-content: center;
+}

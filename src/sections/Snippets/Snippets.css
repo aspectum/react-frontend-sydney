@@ -1,0 +1,20 @@
+.snippets.container {
+    display: flex;
+}
+
+.snippets .screenshot {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.snippets .description {
+    margin-left: 50px;
+}
+
+.snippets p {
+    margin-bottom: 40px;
+}
+
+.screenshot img {
+    max-width: 100%;
+}

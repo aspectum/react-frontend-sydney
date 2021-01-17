@@ -1,0 +1,22 @@
+.a-tools.content {
+    display: flex;
+}
+
+.a-tools .image {
+    display: flex;
+    align-self: center;
+    width: 50%;
+}
+
+.a-tools .description {
+    width: 50%;
+}
+
+.a-tools .margin-wrapper {
+    margin-left: 30px;
+}
+
+.a-tools .image img {
+    max-width: 100%;
+    
+}

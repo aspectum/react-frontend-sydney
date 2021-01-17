@@ -1,0 +1,69 @@
+.pricing {
+    text-align: center;
+}
+
+.pricing .row {
+    display: flex;
+    margin-top: 70px;
+}
+
+.pricing .col {
+    width: 33.333%;
+}
+
+.pricing .col_personal {
+    border-style: solid;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 20px 0px 0px 20px;
+    border-color: #EBEBEB;
+}
+
+.pricing .col_team {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0px 0px 0px 0px;
+    border-color: #EBEBEB;
+    background-color: #FFF7F1;
+}
+
+.pricing .col_company {
+    border-style: solid;
+    border-width: 1px 1px 1px 0px;
+    border-radius: 0px 20px 20px 0px;
+    border-color: #EBEBEB;
+}
+
+.pricing h1 {
+    font-family: Arial;
+}
+
+.pricing h4 {
+    color: #7575DA;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.pricing strong {
+    font-weight: 500;
+}
+
+.pricing hr {
+    border: 0;
+    border-top: 1px solid #EBEBEB;
+    width: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pricing svg {
+    width: 36px;
+    height: 36px;
+    fill: #ffffff;
+}
+
+.pricing .stars {
+    display: inline-block;
+    background-color: #FF8A11;
+    border-radius: 0px 0px 05px 05px;
+    padding: 0px 20px 0px 20px;
+}

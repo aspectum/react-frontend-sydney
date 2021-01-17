@@ -1,0 +1,9 @@
+.intro p {
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 2rem;
+}
+
+.intro.container {
+    padding-top: 80px;
+}

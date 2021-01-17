@@ -1,0 +1,28 @@
+.item-box {
+    display: flex;
+}
+
+.item-box .icon {
+	display: flex;
+	border-radius: 50%;
+	padding: 25px;
+	margin: auto;
+	margin-right: 30px;
+	fill: #393689;
+	background-color: #FFF2E7;
+	transition: all 0.3s ease-in-out;
+}
+
+.item-box .icon-alt {
+	background-color: #E4F3FF;
+}
+
+.item-box svg {
+	width: 32px;
+	height: 32px;
+}
+
+.item-box .icon:hover {
+	fill: #ffffff;
+	background-color: #393689;
+}
