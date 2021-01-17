@@ -1,11 +1,11 @@
-import './Solutions.css'
-import ItemBox from '../ItemBox/ItemBox';
+import ItemBox from '../../components/ItemBox/ItemBox';
 import { ReactComponent as Cloud } from './cloud.svg'
 import { ReactComponent as Cog } from './cog.svg'
 import { ReactComponent as Hand } from './hand.svg'
 import { ReactComponent as Megaphone } from './megaphone.svg'
 import { ReactComponent as Paintbrush } from './paintbrush.svg'
 import { ReactComponent as Shield } from './shield.svg'
+import './Solutions.css'
 
 // Icons obtained by copying the markup in original page and using https://jakearchibald.github.io/svgomg/
 

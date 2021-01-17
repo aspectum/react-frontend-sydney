@@ -3,7 +3,6 @@ import SwiperCore, { Navigation, Pagination, A11y } from 'swiper';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import 'swiper/swiper-bundle.css';
-import './Testimonials.css';
 import logo_1 from './company_logo_1.png'
 import logo_2 from './company_logo_2.png'
 import logo_3 from './company_logo_3.png'
@@ -14,6 +13,7 @@ import logo_7 from './company_logo_7.png'
 import logo_8 from './company_logo_8.png'
 import portrait_1 from './portrait1.png'
 import portrait_2 from './portrait2.jpg'
+import './Testimonials.css';
 
 SwiperCore.use([Navigation, Pagination, A11y]);
 

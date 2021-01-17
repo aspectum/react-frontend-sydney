@@ -1,6 +1,6 @@
+import CustomList from '../../components/CustomList/CustomList';
 import snippets from './snippets.png';
 import './Snippets.css'
-import CustomList from '../CustomList/CustomList';
 
 const items = [
     'The text should be more aligned and in a small',

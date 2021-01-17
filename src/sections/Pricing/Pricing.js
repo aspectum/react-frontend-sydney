@@ -1,4 +1,4 @@
-import Button from '../Button/Button'
+import Button from '../../components/Button/Button'
 import { ReactComponent as Stars } from './stars.svg'
 import './Pricing.css'
 

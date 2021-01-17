@@ -1,4 +1,4 @@
-import CollapsibleList from '../CollapsibleList/CollapsibleList'
+import CollapsibleList from '../../components/CollapsibleList/CollapsibleList'
 import image from './analyzetools.png'
 import './AnalyzeTools.css'
 

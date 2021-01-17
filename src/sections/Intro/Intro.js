@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import Button from '../../components/Button/Button';
 import screencap from './screencap.png';
 import './Intro.css'
-import Button from '../Button/Button';
 
 function Intro() {
     return (
