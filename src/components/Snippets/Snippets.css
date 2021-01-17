@@ -11,35 +11,10 @@
     margin-left: 50px;
 }
 
-.snippets .icon-check {
-    color: #7575DA;
-}
-
-.snippets li:hover .icon-check {
-    color: #393689;
-}
-
-.snippets li {
-    padding: 10px 0;
-}
-
-.snippets li:hover {
-    color: #393689;
-}
-
-.snippets ul {
-    list-style: none;
-    padding: 0;
-}
-
 .snippets p {
     margin-bottom: 40px;
 }
 
 .screenshot img {
     max-width: 100%;
-}
-
-.snippets span {
-    padding-left: 15px;
 }
