@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import Button from '../Button/Button'
 import './Pricing.css'
 
 function Pricing() {
@@ -17,7 +18,7 @@ function Pricing() {
                         <p>500 Users</p>
                         <p>15 Domains</p>
                         <p>1 Year Support</p>
-                        <a href='#' className='button btn2'>Get Started</a>
+                        <Button className='btn-3' text='Get Started'/>
                     </div>
                     <div className='col col_team'>
                         <div className='stars'>
@@ -33,7 +34,7 @@ function Pricing() {
                         <p>Unlimited Users</p>
                         <p>50 Domains</p>
                         <p>Lifetime Support</p>
-                        <a href='#' className='button'>Get Started</a>
+                        <Button text='Get Started'/>
                     </div>
                     <div className='col col_company'>
                         <h4>Company</h4>
@@ -44,7 +45,7 @@ function Pricing() {
                         <p>Unlimited Users</p>
                         <p>20 Domains</p>
                         <p>Lifetime Support</p>
-                        <a href='#' className='button btn2'>Get Started</a>
+                        <Button className='btn-3' text='Get Started'/>
                     </div>
                 </div>
             </div>

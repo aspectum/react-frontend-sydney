@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import Button from '../Button/Button'
 import './Tools.css'
 
 function Tools() {
@@ -10,7 +11,7 @@ function Tools() {
                         <div className='desc_section_inner'>
                             <h2>Work Faster With Powerful Tools.</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                            <a href='#' className='button'>Start Free Trial</a>
+                            <Button text='Start Free Trial'/>
                         </div>
                     </div>
                     <div className='cards'>
