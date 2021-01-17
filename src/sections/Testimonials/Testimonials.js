@@ -1,8 +1,6 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, A11y } from 'swiper';
+import CompaniesSwiper from '../../components/CompaniesSwiper/CompaniesSwiper';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
-import 'swiper/swiper-bundle.css';
 import logo_1 from './company_logo_1.png'
 import logo_2 from './company_logo_2.png'
 import logo_3 from './company_logo_3.png'
@@ -15,34 +13,14 @@ import portrait_1 from './portrait1.png'
 import portrait_2 from './portrait2.jpg'
 import './Testimonials.css';
 
-SwiperCore.use([Navigation, Pagination, A11y]);
-
-// https://swiperjs.com/react/
-// https://swiperjs.com/demos/
-
-// Pagination is on top of slider
+const companies = [ logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo_8 ]
 
 function Testimonials() {
     return (
         <div className='section-wrapper'>
             <div className='testimonials container'>
                 <h3 style={{fontSize: '26px', fontWeight: '500'}}>More than 2,2 million people across 55,000 companies choose Sydney</h3>
-                <div>
-                    <Swiper
-                        slidesPerView={6}
-                        navigation
-                        pagination={{ clickable: true }}
-                        >
-                        <SwiperSlide><img src={logo_1} alt='' width='195px'></img></SwiperSlide>
-                        <SwiperSlide><img src={logo_2} alt='' width='195px'></img></SwiperSlide>
-                        <SwiperSlide><img src={logo_3} alt='' width='195px'></img></SwiperSlide>
-                        <SwiperSlide><img src={logo_4} alt='' width='195px'></img></SwiperSlide>
-                        <SwiperSlide><img src={logo_5} alt='' width='195px'></img></SwiperSlide>
-                        <SwiperSlide><img src={logo_6} alt='' width='195px'></img></SwiperSlide>
-                        <SwiperSlide><img src={logo_7} alt='' width='195px'></img></SwiperSlide>
-                        <SwiperSlide><img src={logo_8} alt='' width='195px'></img></SwiperSlide>
-                    </Swiper>
-                </div>
+                <CompaniesSwiper items={companies} />
                 <div className='flex'>
                     <div className='card'>
                         <p className='quote-symbol'><FontAwesomeIcon icon={faQuoteLeft} color='#7575DA' /></p>
