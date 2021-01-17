@@ -1,0 +1,44 @@
+.collapsible-list .Collapsible__trigger {
+    display:inline-block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.collapsible-list .title-wrapper {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.collapsible-list .Collapsible__trigger span {
+    display:flex;
+    transition: all 0.3s ease-in-out;
+}
+
+.collapsible-list .Collapsible__trigger.is-open span {
+    color: #393689;
+}
+
+.collapsible-list hr {
+    border: 0;
+    border-top: 1px solid #EBEBEB;
+}
+
+
+/* Style for + and - icons */
+
+.collapsible-list .minus {
+    margin-left: auto;
+}
+
+.collapsible-list .plus {
+    margin-left: auto;
+}
+
+.collapsible-list .is-closed .minus {
+    display: none;
+}
+
+.collapsible-list .is-open .plus {
+    display: none;
+}
