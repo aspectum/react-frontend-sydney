@@ -5,7 +5,7 @@ function ItemBox(props) {
 
     return (
         <div className='item-box'>
-            <div className='icon'>
+            <div className={`icon ${props.className}`}>
                 <Icon />
             </div>
             <div>
@@ -14,6 +14,10 @@ function ItemBox(props) {
             </div>
         </div>
     )
+}
+
+ItemBox.defaultProps = {
+    className: "",
 }
 
 export default ItemBox
