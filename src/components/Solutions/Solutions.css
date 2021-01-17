@@ -1,20 +1,7 @@
-.solutions.container {
-    line-height: 2rem;
-}
-
 .solutions .row {
     display: flex;
 }
 
 .solutions .col {
     width: 33.333%;
-}
-
-.solutions .item {
-    display: flex;
-}
-
-.solutions svg {
-    width: 32px;
-    height: 32px;
 }
