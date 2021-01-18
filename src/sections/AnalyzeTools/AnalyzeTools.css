@@ -23,7 +23,6 @@
 
 @media only screen and (max-width: 1024px) {
     .a-tools.content {
-        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
     }
