@@ -18,3 +18,26 @@
 .screenshot img {
     max-width: 100%;
 }
+
+@media only screen and (max-width: 1024px) {
+    .snippets.container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .snippets .screenshot {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .snippets .description {
+        margin-left: 0;
+        width: 80%;
+    }
+
+    .snippets .custom-list {
+        display: inline-block;
+        text-align: left;
+    }
+}
