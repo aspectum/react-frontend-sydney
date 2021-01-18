@@ -7,8 +7,8 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div className='footer-wrapper'>
-            <div className='section-wrapper'>
+        <div className='section-wrapper' id='footer'>
+            <div className='section-container'>
                 <div className='footer'>
                     <div className='col-wide'>
                         <img src={logo} alt='logo' />

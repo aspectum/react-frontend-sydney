@@ -6,8 +6,8 @@ import './DownloadApp.css'
 
 function DownloadApp() {
     return (
-        <div className='downloadapp-wrapper'>
-            <div className='section-wrapper'>
+        <div className='section-wrapper' id='downloadapp'>
+            <div className='section-container'>
                 <div className='downloadapp container'>
                     <h2>Start Your 7 Days Free Trial!</h2>
                     <p>SYDNEY is Just What Your Business Needs  adipiscing elit ut elit tellus luctus</p>

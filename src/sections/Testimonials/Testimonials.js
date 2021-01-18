@@ -18,26 +18,28 @@ const companies = [ logo_1, logo_2, logo_3, logo_4, logo_5, logo_6, logo_7, logo
 function Testimonials() {
     return (
         <div className='section-wrapper'>
-            <div className='testimonials container'>
-                <h3 style={{fontSize: '26px', fontWeight: '500'}}>More than 2,2 million people across 55,000 companies choose Sydney</h3>
-                <CompaniesSwiper items={companies} />
-                <div className='flex'>
-                    <Quotes 
-                        quote='Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'
-                        person={{
-                            name: 'Amanda Lee',
-                            job: 'Ceo & Founder Crix',
-                            portrait: portrait_2
-                        }}
-                    />
-                    <Quotes 
-                        quote='Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'
-                        person={{
-                            name: 'Adam Cheise',
-                            job: 'Head Of Sales, Intel',
-                            portrait: portrait_1
-                        }}
-                    />
+            <div className='section-container'>
+                <div className='testimonials container'>
+                    <h3 style={{fontSize: '26px', fontWeight: '500'}}>More than 2,2 million people across 55,000 companies choose Sydney</h3>
+                    <CompaniesSwiper items={companies} />
+                    <div className='flex'>
+                        <Quotes 
+                            quote='Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'
+                            person={{
+                                name: 'Amanda Lee',
+                                job: 'Ceo & Founder Crix',
+                                portrait: portrait_2
+                            }}
+                        />
+                        <Quotes 
+                            quote='Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'
+                            person={{
+                                name: 'Adam Cheise',
+                                job: 'Head Of Sales, Intel',
+                                portrait: portrait_1
+                            }}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

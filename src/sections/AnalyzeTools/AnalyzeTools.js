@@ -25,15 +25,17 @@ const items = [
 function AnalyzeTools() {
     return (
         <div className='section-wrapper'>
-            <div className='a-tools content'>
-                <div className='image'>
-                    <img src={image} alt=''></img>
-                </div>
-                <div className='description'>
-                    <div className='margin-wrapper'>
-                        <h2>Analyze Your Data With Our Analyze Tools</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                        <CollapsibleList items={items} />
+            <div className='section-container'>
+                <div className='a-tools content'>
+                    <div className='image'>
+                        <img src={image} alt=''></img>
+                    </div>
+                    <div className='description'>
+                        <div className='margin-wrapper'>
+                            <h2>Analyze Your Data With Our Analyze Tools</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                            <CollapsibleList items={items} />
+                        </div>
                     </div>
                 </div>
             </div>

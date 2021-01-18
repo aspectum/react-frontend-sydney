@@ -13,14 +13,16 @@ const items = [
 function Snippets() {
     return (
         <div className='section-wrapper'>
-            <div className='snippets container'>
-                <div className='screenshot'>
-                    <img src={snippets} alt=''></img>
-                </div>
-                <div className='description'>
-                    <h2>Simple, Intuitive And Easy To Use</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                    <CustomList items={items} />
+            <div className='section-container'>
+                <div className='snippets container'>
+                    <div className='screenshot'>
+                        <img src={snippets} alt=''></img>
+                    </div>
+                    <div className='description'>
+                        <h2>Simple, Intuitive And Easy To Use</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        <CustomList items={items} />
+                    </div>
                 </div>
             </div>
         </div>

@@ -8,8 +8,8 @@ import './Tools.css'
 
 function Tools() {
     return (
-        <div className="tools-wrapper">
-            <div className='section-wrapper'>
+        <div className='section-wrapper' id='tools'>
+            <div className='section-container'>
                 <div className='tools'>
                     <div className='desc_section'>
                         <div className='desc_section_inner'>
