@@ -72,11 +72,11 @@
 
     .tools .cards {
         width: auto;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .tools .card-pos-1 {
-        margin: 0;
+        margin: 20px 0;
     }
     
     .tools .card-pos-2 {
@@ -84,6 +84,6 @@
     }
     
     .tools .card-pos-3 {
-        margin: 0;
+        margin: 20px 0;
     }
 }
