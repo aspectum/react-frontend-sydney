@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-// Disabling linting for href=#
+// Disabling linting for href='#'
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -17,7 +17,8 @@ class Navbar extends React.Component {
         }
     }
 
-    handleScroll = () => { // Animating navbar movement once scrolled a bit
+    // Animating navbar movement once scrolled a bit
+    handleScroll = () => {
         if (window.scrollY > 60) {
             if (!this.state.nav_scrolled) {
                 this.setState({ nav_scrolled: true })
@@ -30,6 +31,7 @@ class Navbar extends React.Component {
         }
     }
 
+    // Handling the menu opening when clicking button (for small screens)
     handleMenuBtnClick = () => {
         if (!this.state.menu_open) {
             this.setState({ menu_open: true })
@@ -59,7 +61,6 @@ class Navbar extends React.Component {
                             <li><a href='#'>Pricing</a></li>
                             <li><a href='#'>Blog</a></li>
                             <li><a href='#'>Contact</a></li>
-                            {/* <li><a className='button' href='#'>Start Free Trial</a></li> */}
                             <li id='btn'><Button id='navbar-btn' className='btn-2' text='Start Free Trial' /></li>
                         </ul>
                     </div>

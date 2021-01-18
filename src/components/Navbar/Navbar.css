@@ -4,20 +4,20 @@
     width: 100%;
     padding: 20px 0;
     background-color: rgba(210,233,255,0.9);
-    transition: all 0.3s ease-in-out;
     color: #111111;
     font-weight: 500;
     font-size: 15px;
+    transition: all 0.3s ease-in-out;
     z-index: 999;
 }
 
 .navbar .container {
     display: flex;
     box-sizing: border-box; /* Important to preserve padding */
-    max-width: 1170px;
     padding: 0 20px;
-    width: 100%;
     height: 50px;
+    width: 100%;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -56,7 +56,6 @@
 }
 
 .navbar a:hover {
-    transition: all 0.3s ease-in-out;
     color: #6138fa;
 }
 
@@ -79,19 +78,23 @@
         position: static;
     }
 
-    .scrolled { /* disabling animation */
+    /* disabling animation */
+    .scrolled {
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
+    /* making the navbar a bit narrower */
     .navbar .container {
         padding: 0 40px;
     }
 
+    /* showing button */
     .navbar .menu-btn {
         display: block;
     }
 
+    /* hiding menu */
     .navbar .menu {
         display: none;
     }
@@ -144,7 +147,6 @@
     }
 
     .navbar a:hover {
-        transition: all 0.3s ease-in-out;
         color: #aaaaaa;
     }
 }
