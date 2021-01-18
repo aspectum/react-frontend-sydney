@@ -33,10 +33,10 @@ class Navbar extends React.Component {
 
     render() {
         return (
-            <div className={`navbar ${this.state.nav_scrolled ? 'scrolled' : ''}`}>
+            <nav className={`navbar ${this.state.nav_scrolled ? 'scrolled' : ''}`}>
                 <div className='container flex'>
                     <img src={logo} alt='logo' />
-                    <nav>
+                    <div>
                         <ul className='flex'>
                             <li><a href='#'>Home</a></li>
                             <li><a href='#'>About</a></li>
@@ -47,9 +47,9 @@ class Navbar extends React.Component {
                             {/* <li><a className='button' href='#'>Start Free Trial</a></li> */}
                             <li><Button id='navbar-btn' className='btn-2' text='Start Free Trial' /></li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>
-            </div>
+            </nav>
         );
     }
 }
