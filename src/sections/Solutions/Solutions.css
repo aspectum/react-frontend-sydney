@@ -11,12 +11,12 @@
 @media only screen and (max-width: 1024px) {
     
     .solutions .row {
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
+        align-items: center;
     }
     
     .solutions .col {
         width: auto;
-        margin: 0 10px; /* To force wrap (preventing 2 cols in first line and the other on the second) */
     }
 }
