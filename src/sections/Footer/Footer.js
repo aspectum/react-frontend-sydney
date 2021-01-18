@@ -10,7 +10,7 @@ function Footer() {
         <div className='section-wrapper' id='footer'>
             <div className='section-container'>
                 <div className='footer'>
-                    <div className='col-wide'>
+                    <div className='col-1'>
                         <img src={logo} alt='logo' />
                         <p>Eiusmod tempor incididunt ut labore et dolore magna aliqua. gravida lacus vel facilisis.</p>
                         <div className='social-media'>
@@ -20,21 +20,21 @@ function Footer() {
                             <div className='ico ico_color'><FontAwesomeIcon icon={faInstagram} /></div>
                         </div>
                     </div>
-                    <div className='col'>
+                    <div className='col-2'>
                         <h3>Company</h3>
                         <p><a href='#'>Company</a></p>
                         <p><a href='#'>About</a></p>
                         <p><a href='#'>Teams</a></p>
                         <p><a href='#'>Privacy Policy</a></p>
                     </div>
-                    <div className='col'>
+                    <div className='col-3'>
                         <h3>Products</h3>
                         <p><a href='#'>Pricing</a></p>
                         <p><a href='#'>Feature</a></p>
                         <p><a href='#'>Blog</a></p>
                         <p><a href='#'>Documentation</a></p>
                     </div>
-                    <div className='col-wide'>
+                    <div className='col-4'>
                         <h3>Contact info</h3>
                         <p><span className='ico_color'><FontAwesomeIcon icon={faMapMarkerAlt} /></span> 7176 Blue Spring Lane Santa Monica, CA 90403</p>
                         <p><span className='ico_color'><FontAwesomeIcon icon={faPhoneAlt} /></span> +01 123 456 888</p>
