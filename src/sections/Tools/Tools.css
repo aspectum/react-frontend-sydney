@@ -14,7 +14,6 @@
     display: flex;
     width: 50%;
     align-items: center;
-    align-content: center;
 }
 
 .tools .desc_section_inner {
@@ -37,10 +36,6 @@
     margin: 40px 90px -70px 0px;
 }
 
-.tools .item {
-    display: flex;
-}
-
 .tools svg {
     width: 36px;
     height: 36px;
@@ -49,12 +44,12 @@
 @media only screen and (max-width: 1024px) {
     .tools {
         flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .tools .desc_section {
         width: 80%;
-        margin: 0 10px;
         text-align: center;
     }
 
@@ -64,7 +59,7 @@
 
     .tools .cards {
         width: auto;
-        margin: 120px 10px 0;
+        margin-top: 120px;
     }
 }
 
