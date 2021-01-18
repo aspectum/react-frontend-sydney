@@ -22,7 +22,7 @@ function Testimonials() {
                 <div className='testimonials container'>
                     <h3 style={{fontSize: '26px', fontWeight: '500'}}>More than 2,2 million people across 55,000 companies choose Sydney</h3>
                     <CompaniesSwiper items={companies} />
-                    <div className='flex'>
+                    <div className='quotes-container'>
                         <Quotes 
                             quote='Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.'
                             person={{
