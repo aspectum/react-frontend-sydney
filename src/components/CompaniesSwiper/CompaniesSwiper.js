@@ -16,9 +16,17 @@ function CompaniesSwiper(props) {
     return (
         <div className='companies-swiper'>
             <Swiper
-                slidesPerView={6}
+                slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
+                breakpoints={{
+                    1024: {
+                        slidesPerView: 6
+                    },
+                    767: {
+                        slidesPerView: 4
+                    }
+                }}
             >
                 { props.items.map( item => slide(item) ) }
             </Swiper>

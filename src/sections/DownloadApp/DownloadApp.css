@@ -1,4 +1,4 @@
-.downloadapp-wrapper {
+.section-wrapper#downloadapp {
 	background-color: #FFF7F1;
 	background-image: url("./bg_downloadapp.png");
 	background-position: center center;
@@ -14,4 +14,10 @@
 .downloadapp .stores {
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+	.downloadapp .stores {
+		flex-wrap: wrap;
+	}
 }

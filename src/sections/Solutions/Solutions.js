@@ -12,23 +12,25 @@ import './Solutions.css'
 function Solutions() {
     return (
         <div className='section-wrapper'>
-            <div className='solutions container'>
-                <div className='tc'>
-                    <h2>Our Solution For You</h2>
-                    <p>Consectetur adipiscing elit ut elit tellus, luctus nec ullamcorper mattis.</p>
-                </div>
-                <div className='row'>
-                    <div className='col'>
-                        <ItemBox icon={Paintbrush} title='Professional tools' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
-                        <ItemBox className='icon-alt' icon={Shield} title='App integration' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
+            <div className='section-container'>
+                <div className='solutions container'>
+                    <div className='tc'>
+                        <h2>Our Solution For You</h2>
+                        <p>Consectetur adipiscing elit ut elit tellus, luctus nec ullamcorper mattis.</p>
                     </div>
-                    <div className='col'>
-                        <ItemBox className='icon-alt' icon={Cog} title='Fully customizable' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
-                        <ItemBox icon={Hand} title='Easy to use' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
-                    </div>
-                    <div className='col'>
-                        <ItemBox icon={Cloud} title='Saved to the cloud' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
-                        <ItemBox className='icon-alt' icon={Megaphone} title='Marketing' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
+                    <div className='row'>
+                        <div className='col'>
+                            <ItemBox icon={Paintbrush} title='Professional tools' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
+                            <ItemBox className='icon-alt' icon={Shield} title='App integration' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
+                        </div>
+                        <div className='col'>
+                            <ItemBox className='icon-alt' icon={Cog} title='Fully customizable' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
+                            <ItemBox icon={Hand} title='Easy to use' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
+                        </div>
+                        <div className='col'>
+                            <ItemBox icon={Cloud} title='Saved to the cloud' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
+                            <ItemBox className='icon-alt' icon={Megaphone} title='Marketing' desc='Ipsum pendisse ultrices gravida accumsan lacus.' />
+                        </div>
                     </div>
                 </div>
             </div>

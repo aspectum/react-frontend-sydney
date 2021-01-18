@@ -38,8 +38,13 @@ h3 {
 }
 
 .section-wrapper {
-    max-width: 1200px;
-    margin: 0 auto 70px;
+    margin-bottom: 70px;
+}
+
+.section-container {
+    max-width: 1170px;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 
 .card {

@@ -2,3 +2,13 @@
     width: 100%;
     text-align: center;
 }
+
+.testimonials .quotes-container {
+    display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+    .testimonials .quotes-container {
+        flex-wrap: wrap;
+    }
+}

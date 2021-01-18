@@ -6,3 +6,17 @@
 .solutions .col {
     width: 33.333%;
 }
+
+/* The original site has a different ItemBox style for <767px, but I think it is worse */
+@media only screen and (max-width: 1024px) {
+    
+    .solutions .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .solutions .col {
+        width: auto;
+        margin: 0 10px; /* To force wrap (preventing 2 cols in first line and the other on the second) */
+    }
+}

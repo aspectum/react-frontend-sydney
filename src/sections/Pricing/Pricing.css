@@ -9,6 +9,7 @@
 
 .pricing .col {
     width: 33.333%;
+    padding-bottom: 20px;
 }
 
 .pricing .col_personal {
@@ -66,4 +67,18 @@
     background-color: #FF8A11;
     border-radius: 0px 0px 05px 05px;
     padding: 0px 20px 0px 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pricing .row {
+        display: block;
+    }
+
+    .pricing .col {
+        width: 90%;
+        margin: 40px auto;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 20px;
+    }
 }
