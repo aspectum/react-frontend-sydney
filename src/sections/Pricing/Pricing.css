@@ -9,6 +9,7 @@
 
 .pricing .col {
     width: 33.333%;
+    padding-bottom: 20px;
 }
 
 .pricing .col_personal {
