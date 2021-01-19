@@ -2,6 +2,7 @@ import { faApple } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './ButtonAppStore.css'
 
+// A button for the app in the App Store. Currently not leading anywhere.
 function ButtonAppStore() {
     return (
         <div className='button-app-store'>

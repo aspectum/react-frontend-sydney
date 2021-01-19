@@ -1,3 +1,4 @@
+/* Style for title of collapsible item */
 .collapsible-list .Collapsible__trigger {
     display:inline-block;
     width: 100%;
@@ -19,6 +20,7 @@
     color: #393689;
 }
 
+/* Style for divider between items */
 .collapsible-list hr {
     border: 0;
     border-top: 1px solid #EBEBEB;
@@ -26,7 +28,6 @@
 
 
 /* Style for + and - icons */
-
 .collapsible-list .minus {
     margin-left: auto;
 }

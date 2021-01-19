@@ -2,6 +2,7 @@ import './Quotes.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 
+/* Component returns a card with a quote text and the person who said it */
 function Quotes(props) {
     return (
         <div className='quotes'>

@@ -1,5 +1,6 @@
 import './ItemBox.css'
 
+// Component consists of an icon and some text on the right side
 function ItemBox(props) {
     const Icon = props.icon; // This way I can do <ItemBox icon={Whatever} /> instead of <ItemBox icon={<Whatever />} />
 

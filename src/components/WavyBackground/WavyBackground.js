@@ -1,5 +1,7 @@
 import './WavyBackground.css'
 
+/* Component creates the light blue background on the upper part of the page */
+/* Wave part is flipped upside down from the original */
 function WavyBackground() {
     return (
         <div className='wavy-bg'>

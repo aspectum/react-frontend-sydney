@@ -7,8 +7,11 @@ import Button from '../Button/Button';
 import logo from '../logo.png' // the image changes color slightly, but I don't know why
 import './Navbar.css'
 
+// Navbar component
 class Navbar extends React.Component {
 
+    // State tracks if page scrolled enough for animation and
+    // if menu button was clicked (small screens)
     constructor() {
         super()
         this.state = {
@@ -19,7 +22,7 @@ class Navbar extends React.Component {
 
     // Animating navbar movement once scrolled a bit
     handleScroll = () => {
-        if (window.scrollY > 60) {
+        if (window.scrollY > 60) { // amount of px scrolled
             if (!this.state.nav_scrolled) {
                 this.setState({ nav_scrolled: true })
             }

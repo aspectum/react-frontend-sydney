@@ -2,6 +2,7 @@ import { faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './ButtonGooglePlay.css'
 
+// A button for the app in Google Play. Currently not leading anywhere.
 function ButtonGooglePlay() {
     return (
         <div className='button-google-play'>

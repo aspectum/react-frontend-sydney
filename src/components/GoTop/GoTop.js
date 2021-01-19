@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import './GoTop.css'
 
+// Component of go to top button
 class GoTop extends React.Component {
 
+    // State is if page scrolled enough to show button
     constructor() {
         super()
         this.state = {
@@ -12,6 +14,7 @@ class GoTop extends React.Component {
         }
     }
 
+    // Sets the state when scrolled enough
     handleScroll = () => {
         if (window.scrollY > 600) { // amount of px before shows button
             if (!this.state.scrolled) {
@@ -25,6 +28,7 @@ class GoTop extends React.Component {
         }
     }
 
+    // Method to scroll up when clicked
     handleClick = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' })
     }

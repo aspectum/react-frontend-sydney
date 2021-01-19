@@ -1,5 +1,6 @@
 import './Button.css'
 
+// Simple Button component
 function Button(props) {
     return (
         <a 

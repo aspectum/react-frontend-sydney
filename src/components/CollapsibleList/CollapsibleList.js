@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus, faWindowMinimize } from '@fortawesome/free-solid-svg-icons'
 import './CollapsibleList.css'
 
+// Documentation:
 // https://www.npmjs.com/package/react-collapsible
 
 const list_item = (item) => {
@@ -22,7 +23,7 @@ const list_item = (item) => {
     )
 }
 
-
+// Component receives an array of title,text objects and returns a collapsible element with proper styling
 function CollapsibleList(props) {
     return (
         <div className='collapsible-list'>
