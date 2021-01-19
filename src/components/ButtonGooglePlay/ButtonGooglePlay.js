@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { faGooglePlay } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './ButtonGooglePlay.css'
@@ -5,7 +6,7 @@ import './ButtonGooglePlay.css'
 // A button for the app in Google Play. Currently not leading anywhere.
 function ButtonGooglePlay() {
     return (
-        <div className='button-google-play'>
+        <a className='button-google-play' href='#'>
             <div className='store_icon'>
                 <FontAwesomeIcon icon={faGooglePlay} />
             </div>
@@ -13,7 +14,7 @@ function ButtonGooglePlay() {
                 <p style={{fontSize: '14px', fontWeight: '300'}}>Download on the</p>
                 <p style={{fontSize: '22px', fontWeight: '600'}}>Google Play</p>
             </div>
-        </div>
+        </a>
     )
 }
 
