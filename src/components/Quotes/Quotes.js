@@ -5,7 +5,7 @@ import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 /* Component returns a card with a quote text and the person who said it */
 function Quotes(props) {
     return (
-        <div className='quotes'>
+        <div className='quote'>
             <div className='card'>
                 <p className='quote-symbol'><FontAwesomeIcon icon={faQuoteLeft} color='#7575DA' /></p>
                 <p className='quote-text'>{props.quote}</p>

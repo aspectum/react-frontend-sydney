@@ -1,4 +1,4 @@
-.quotes .card {
+.quote .card {
     display: block;
     padding: 20px 30px;
     margin: 20px 20px;
@@ -8,16 +8,16 @@
     line-height: 2rem;
 }
 
-.quotes .quote-symbol {
+.quote .quote-symbol {
     font-size: 36px;
 }
 
-.quotes .quote-text {
+.quote .quote-text {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.quotes .person {
+.quote .person {
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
@@ -25,21 +25,21 @@
     align-items: center;
 }
 
-.quotes .who {
+.quote .who {
     margin-left: 10px;
     text-align: left;
 }
 
-.quotes .who > h3 {
+.quote .who > h3 {
     margin: 0;
 }
 
-.quotes .who > p {
+.quote .who > p {
     color: #888888;
     font-weight: 400;
     margin: 0;
 }
 
-.quotes .portrait img {
+.quote .portrait img {
     border-radius: 50%;
 }
