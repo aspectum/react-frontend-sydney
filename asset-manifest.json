@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-frontend-sydney/static/css/main.18af2ebd.chunk.css",
-    "main.js": "/react-frontend-sydney/static/js/main.b4b27c6d.chunk.js",
-    "main.js.map": "/react-frontend-sydney/static/js/main.b4b27c6d.chunk.js.map",
+    "main.css": "/react-frontend-sydney/static/css/main.d7ad4746.chunk.css",
+    "main.js": "/react-frontend-sydney/static/js/main.12af51c7.chunk.js",
+    "main.js.map": "/react-frontend-sydney/static/js/main.12af51c7.chunk.js.map",
     "runtime-main.js": "/react-frontend-sydney/static/js/runtime-main.b8cae24b.js",
     "runtime-main.js.map": "/react-frontend-sydney/static/js/runtime-main.b8cae24b.js.map",
     "static/css/2.1d1f9f4f.chunk.css": "/react-frontend-sydney/static/css/2.1d1f9f4f.chunk.css",
-    "static/js/2.56bae792.chunk.js": "/react-frontend-sydney/static/js/2.56bae792.chunk.js",
-    "static/js/2.56bae792.chunk.js.map": "/react-frontend-sydney/static/js/2.56bae792.chunk.js.map",
+    "static/js/2.0fbd18af.chunk.js": "/react-frontend-sydney/static/js/2.0fbd18af.chunk.js",
+    "static/js/2.0fbd18af.chunk.js.map": "/react-frontend-sydney/static/js/2.0fbd18af.chunk.js.map",
     "index.html": "/react-frontend-sydney/index.html",
     "static/css/2.1d1f9f4f.chunk.css.map": "/react-frontend-sydney/static/css/2.1d1f9f4f.chunk.css.map",
-    "static/css/main.18af2ebd.chunk.css.map": "/react-frontend-sydney/static/css/main.18af2ebd.chunk.css.map",
-    "static/js/2.56bae792.chunk.js.LICENSE.txt": "/react-frontend-sydney/static/js/2.56bae792.chunk.js.LICENSE.txt",
+    "static/css/main.d7ad4746.chunk.css.map": "/react-frontend-sydney/static/css/main.d7ad4746.chunk.css.map",
+    "static/js/2.0fbd18af.chunk.js.LICENSE.txt": "/react-frontend-sydney/static/js/2.0fbd18af.chunk.js.LICENSE.txt",
     "static/media/analyze.11d2e75e.svg": "/react-frontend-sydney/static/media/analyze.11d2e75e.svg",
     "static/media/analyzetools.3a71411e.png": "/react-frontend-sydney/static/media/analyzetools.3a71411e.png",
     "static/media/DownloadApp.css": "/react-frontend-sydney/static/media/bg_downloadapp.ce51f8ac.png",
@@ -40,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.b8cae24b.js",
     "static/css/2.1d1f9f4f.chunk.css",
-    "static/js/2.56bae792.chunk.js",
-    "static/css/main.18af2ebd.chunk.css",
-    "static/js/main.b4b27c6d.chunk.js"
+    "static/js/2.0fbd18af.chunk.js",
+    "static/css/main.d7ad4746.chunk.css",
+    "static/js/main.12af51c7.chunk.js"
   ]
 }
