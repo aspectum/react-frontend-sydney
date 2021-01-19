@@ -36,11 +36,6 @@
     margin: 40px 90px -70px 0px;
 }
 
-.tools svg {
-    width: 36px;
-    height: 36px;
-}
-
 @media only screen and (max-width: 1024px) {
     .tools {
         flex-direction: column;
